@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production builds
+dist/
+build/
+*/dist/
+*/build/
+
+# Environment files
+.env
+.env*.local
+*.local
+
+# Logs and system
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# Deploy archives
+app.tar.gz
+deploy_out.txt
+test_script.js
+run_helper.bat
+build_check.bat
+

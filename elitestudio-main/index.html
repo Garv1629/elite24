@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=5.0" />
+  <title>Elite24 — Property Consulting Company | 100% MahaRERA Verified Pune</title>
+  <meta name="description"
+    content="Elite24 Property Consulting Company offers zero-brokerage advisory, direct builder pricing, and 100% MahaRERA-verified luxury residences across Baner, Bavdhan, Balewadi, and Hinjawadi in Pune." />
+  <meta property="og:title" content="Elite24 — Property Consulting Company | 100% MahaRERA Verified Pune" />
+  <meta property="og:description"
+    content="Elite24 Property Consulting Company offers zero-brokerage advisory, direct builder pricing, and 100% MahaRERA-verified luxury residences across Baner, Bavdhan, Balewadi, and Hinjawadi in Pune." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#F2EED8" />
+
+  <!-- Preconnect to fonts and CDNs with graceful fallback -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch" href="https://images.unsplash.com" />
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@400;600&family=Manrope:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Pre-emptive Inline Error Trap to absorb transient network, chunk or extension rejections -->
+  <script>
+    (function () {
+      if (typeof window !== 'undefined') {
+        window.addEventListener('unhandledrejection', function (e) {
+          var msg = (e && e.reason && (e.reason.message || e.reason)) || '';
+          if (
+            msg.indexOf('Failed to fetch') !== -1 ||
+            msg.indexOf('dynamically imported module') !== -1 ||
+            msg.indexOf('Loading chunk') !== -1 ||
+            (e.reason && e.reason.name === 'AbortError')
+          ) {
+            console.warn('[Network Resilience] Handled transient fetch/chunk rejection.');
+            e.preventDefault();
+          }
+        });
+      }
+    })();
+  </script>
+
+  <style>
+    /* Prevent layout shifting & horizontal overflow across all devices */
+    html, body {
+      overflow-x: hidden;
+      width: 100%;
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+    }
+    :root {
+      --app-height: 100vh;
+    }
+    @supports (-webkit-touch-callout: none) {
+      /* iOS Safari dynamic bar fix */
+      body {
+        min-height: -webkit-fill-available;
+      }
+    }
+  </style>
+</head>
+
+<body class="bg-[#F2EED8] text-[#111111] antialiased selection:bg-[#E09290] selection:text-[#111111]">
+  <noscript>
+    <div style="padding: 24px; text-align: center; background: #F2EED8; color: #111111; font-family: sans-serif;">
+      <h2>Elite24 Property Consulting</h2>
+      <p>Please enable JavaScript to view Pune's MahaRERA verified luxury residences and schedule your advisory consultation.</p>
+    </div>
+  </noscript>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
